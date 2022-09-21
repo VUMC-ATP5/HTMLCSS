@@ -11,26 +11,25 @@ body, html {
   }
   
   .bg-image {
-    /* The image used */
+/* Izmantotā bilde */
     background-image: ("photographer.jpg");
   
-    /* Add the blur effect */
+    /* Blur efekts */
     filter: blur(8px);
     -webkit-filter: blur(8px);
   
-    /* Full height */
     height: 100%;
   
-    /* Center and scale the image nicely */
+  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
-  /* Position text in the middle of the page/image */
+
   .bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
     color: white;
     font-weight: bold;
     border: 3px solid #f1f1f1;
@@ -42,8 +41,7 @@ body, html {
     width: 80%;
     padding: 20px;
     text-align: center;
-    <h2 style="background-color:DodgerBlue;">Hello World</h2>
-<p style="background-color:Tomato;">Lorem ipsum...</p>
+
 
 
   }
